@@ -24,6 +24,10 @@
 #include "./xsimd_sse2.hpp"
 #endif
 
+#if XSIMD_WITH_ZVECTOR
+#include "xsimd_zvector.hpp"
+#endif
+
 #if XSIMD_WITH_SSE3
 #include "./xsimd_sse3.hpp"
 #endif

@@ -45,6 +45,7 @@ ${XSIMD_INCLUDE_DIR}/xsimd/arch/xsimd_neon64.hpp
 ${XSIMD_INCLUDE_DIR}/xsimd/arch/xsimd_rvv.hpp
 ${XSIMD_INCLUDE_DIR}/xsimd/arch/xsimd_scalar.hpp
 ${XSIMD_INCLUDE_DIR}/xsimd/arch/xsimd_sse2.hpp
+${XSIMD_INCLUDE_DIR}/xsimd/arch/xsimd_zvector.hpp
 ${XSIMD_INCLUDE_DIR}/xsimd/arch/xsimd_sse3.hpp
 ${XSIMD_INCLUDE_DIR}/xsimd/arch/xsimd_sse4_1.hpp
 ${XSIMD_INCLUDE_DIR}/xsimd/arch/xsimd_sse4_2.hpp
@@ -57,6 +58,7 @@ ${XSIMD_INCLUDE_DIR}/xsimd/config/xsimd_cpuid.hpp
 ${XSIMD_INCLUDE_DIR}/xsimd/memory/xsimd_aligned_allocator.hpp
 ${XSIMD_INCLUDE_DIR}/xsimd/memory/xsimd_alignment.hpp
 ${XSIMD_INCLUDE_DIR}/xsimd/types/xsimd_all_registers.hpp
+${XSIMD_INCLUDE_DIR}/xsimd/types/xsimd_zvector_register.hpp
 ${XSIMD_INCLUDE_DIR}/xsimd/types/xsimd_api.hpp
 ${XSIMD_INCLUDE_DIR}/xsimd/types/xsimd_neon_register.hpp
 ${XSIMD_INCLUDE_DIR}/xsimd/types/xsimd_neon64_register.hpp

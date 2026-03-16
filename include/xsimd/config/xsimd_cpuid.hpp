@@ -86,6 +86,13 @@ namespace xsimd
             ARCH_FIELD(wasm)
             ARCH_FIELD(vsx)
 
+#if XSIMD_WITH_ZVECTOR
+            ARCH_FIELD(zvector)
+#else
+            unsigned zvector = 0;
+            XSIMD_INLINE bool has(::xsimd::zvector) const { return this->zvector; }
+#endif
+
 #undef ARCH_FIELD
 
             XSIMD_INLINE supported_arch() noexcept
@@ -98,6 +105,10 @@ namespace xsimd
 
 #if XSIMD_WITH_VSX
                 vsx = 1;
+#endif
+
+#if XSIMD_WITH_ZVECTOR
+                zvector = 1;
 #endif
 
 #if defined(__aarch64__) || defined(_M_ARM64)
